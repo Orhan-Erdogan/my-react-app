@@ -7,6 +7,10 @@ function Square() {
     console.log('clicked!');
   }
 
+  function handleClick() {
+    setValue('X');
+  }
+
   return (
     <button
       className="square"
